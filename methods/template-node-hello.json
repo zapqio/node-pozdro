@@ -1,0 +1,32 @@
+{
+  "timeoutSeconds": 10,
+  "in": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "check_secret": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "name"
+    ]
+  },
+  "out": {
+    "type": "object",
+    "properties": {
+      "message": {
+        "type": "string"
+      },
+      "secret_loaded": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "message",
+      "secret_loaded"
+    ]
+  }
+}

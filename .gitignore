@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+.nyc_output/
+npm-debug.log*
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

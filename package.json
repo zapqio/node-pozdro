@@ -1,0 +1,15 @@
+{
+  "name": "internal_runner_node_template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Template for Zapqio internal runner Node.js modules",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/template.test.cjs",
+    "check": "node tools/check-syntax.cjs",
+    "example": "node tools/run-local.cjs --input examples/input.json"
+  }
+}
