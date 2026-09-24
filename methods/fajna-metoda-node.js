@@ -6,7 +6,7 @@ function run(data) {
 
     zapqio.log.critical(name)
 
-    const token = zapqio.constants.get1("EXAMPLE_API_TOKEN");
+    const token = zapqio.constants.get("EXAMPLE_API_TOKEN");
     zapqio.log.critical(token)
 
     
