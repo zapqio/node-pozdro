@@ -5,6 +5,10 @@ function run(data) {
     const name = "Zbysław"
 
     zapqio.log.critical(name)
+
+    const token = zapqio.constants.get1("EXAMPLE_API_TOKEN");
+    zapqio.log.critical(token)
+
     
     return JSON.stringify({
         message: greeting(name.trim()),       
